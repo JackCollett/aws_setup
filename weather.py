@@ -14,5 +14,3 @@ def as_snow_lover(temp):
         return 'great'
     else:
         return 'not great'
-        
-report_weather(24, as_sun_lover)
