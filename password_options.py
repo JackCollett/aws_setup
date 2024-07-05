@@ -94,14 +94,14 @@ result = map(lambda number: number * 2, [1, 2, 3, 4])
 print(list(result))
 
 # or
-# numbers = [1, 2, 3, 4]
+numbers = [1, 2, 3, 4]
 
-# def times(number):
-#     return number * 2
+def times(number):
+    return number * 2
     
-# result = map(times, numbers)
+result = map(times, numbers)
 
-# print(list(result))
+print(list(result))
 
 # difference between map() and filter() is filter needs to be passed a function that returns True or False
 
@@ -116,4 +116,3 @@ doubled = []
 for number in [1, 2, 3, 4]:
     doubled.append(number * 2)
 print(doubled)
-    
